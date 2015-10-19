@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="{% static "css/main.css" %}">
 
     <!-- Color styles -->
-    <link rel="stylesheet" href="{% static "css/colors/blue.css" %}">
+    <link rel="stylesheet" href="{% static "css/colors/steel.css" %}">
     <!-- <link rel="stylesheet" href="css/colors/yellow.css">-->
     <!-- <link rel="stylesheet" href="css/colors/red.css">-->
     <!--  <link rel="stylesheet" href="css/colors/purple.css">-->
@@ -101,7 +101,7 @@
                 </li>
             </ul>
         </div> -->
-        <div class="container"><img class="flower" src="static/img/pink-flower.jpg" alt="profile"/>
+        <div class="container"><img class="flower" src="static/img/flower3.jpg" alt="profile"/>
             <div class="row">
                 <header class="centered">
                     <h1>Saki Ukaji Fu</h1>
@@ -111,7 +111,7 @@
                     <!-- <a href="https://twitter.com/" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-twitter"></i></a> -->
                     <a href="https://www.facebook.com/" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
                     <!-- <a href="https://www.dribbble.com/" class="btn btn-round btn-clear btn-dribbble"><i class="fa fa-dribbble"></i></a> -->
-                    <a href="https://www.instagram.com/" class="btn btn-round btn-clear btn-instagram"><i class="fa fa-instagram"></i></a>
+                    <!-- <a href="https://www.instagram.com/" class="btn btn-round btn-clear btn-instagram"><i class="fa fa-instagram"></i></a> -->
                     <a href="https://www.linkedin.com/in/sakifu" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
                     <!-- <a href="https://www.pinterest.com/" class="btn btn-round btn-clear btn-pinterest"><i class="fa fa-pinterest"></i></a> -->
                     <!-- <a href="https://www.google.com/" class="btn btn-round btn-clear btn-google"><i class="fa fa-google-plus"></i></a> -->
@@ -126,7 +126,7 @@
     <section id="page-profile" class="page-profile">
         <div class="container">
             <header class="section-header">
-                <h2 class="section-title">Personal Profile</h2>
+                <h2 class="section-title">Profile</h2>
                 <div class="spacer"></div>
                 <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
             </header>
@@ -136,10 +136,10 @@
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <p>Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.</p>
+                    <p>I'm a software developer who likes to learn new skills and highly open to finding solutions for problems and issues.</p>
                     <p>Facer libris qui ea, mel ludus persius suscipiantur te. Eos soleat inimicus liberavisse at. Ex sit mazim soluta lobortis, ut nec bonorum splendide, mel tation erroribus principes eu. Cum ne vero albucius disputando. Et vidit movet sea. Falli appetere ut vix, eu offendit sapientem est. Postulant delicatissimi ex mea, ne modo nostrud salutandi usu, cu ignota dissentiunt his.</p>
                     <p>No wisi hendrerit per, ius ei stet oportere scribentur. Nam ex quando petentium, ei sea sonet timeam. Ex erat docendi urbanitas vix, equidem appetere vix an, mei legere offendit ponderum te. In per vidit dicta democritum, ut fuisset voluptua repudiandae eum. Cum at eius reformidans. In vocent dolores eos, ea vel idque soluta similique.</p>
-                    <p>No wisi hendrerit per, ius ei stet oportere scribentur. Nam ex quando petentium, ei sea sonet timeam. Ex erat docendi urbanitas vix, equidem appetere vix an, mei legere offendit ponderum te. In per vidit dicta democritum, ut fuisset voluptua repudiandae eum.</p>
+                    <h3>Download my resume <a href="{% static "/static/ResumeSakiUkajiFu.pdf" %}">here</a>.</h3>
                 </div>
             </div>
         </div>
@@ -152,7 +152,7 @@
             <header class="section-header">
                 <h2 class="section-title"><span>Skills</span></h2>
                 <div class="spacer"></div>
-                <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                <p class="section-subtitle">Developing everyday.</p>
             </header>
             <div class="row">
                 <div class="col-md-2">
@@ -174,25 +174,31 @@
                     </span>
                 </div>
                 <div class="col-md-2">
-                    <span class="chart" data-percent="80">
+                    <span class="chart" data-percent="50">
                       <span class="percent"></span>
                     <h3>CSS</h3>
                     </span>
                 </div>
                 <div class="col-md-2">
-                    <span class="chart" data-percent="65">
+                    <span class="chart" data-percent="90">
+                      <span class="percent"></span>
+                    <h3>Git</h3>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    <span class="chart" data-percent="50">
                       <span class="percent"></span>
                     <h3>JavaScript</h3>
                     </span>
                 </div>
                 <div class="col-md-2">
-                    <span class="chart" data-percent="85">
+                    <span class="chart" data-percent="20">
                       <span class="percent"></span>
                     <h3>Java</h3>
                     </span>
                 </div>
                 <div class="col-md-2">
-                    <span class="chart" data-percent="85">
+                    <span class="chart" data-percent="30">
                       <span class="percent"></span>
                     <h3>Ruby</h3>
                     </span>
@@ -207,7 +213,8 @@
             <header class="section-header">
                 <h2 class="section-title"><span>Education</span></h2>
                 <div class="spacer"></div>
-                <p class="section-subtitle">Seriously, I love learning. </p>
+                <br>
+                <!-- <p class="section-subtitle"></p> -->
             </header>
             <div class="row">
                 <div class="col-md-6">
@@ -216,7 +223,14 @@
                             <h3>Code Fellows</h3>
                             <p>Certificate of Software Development - <strong>Graduated:</strong> 2015</p>
                         </header>
-                        <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                        <ul>
+                        <li>Built two apps, using Django and Pyramid.</li>
+                        <li>Agile Software Development (Test Driven Development)</li>
+                        <li>Extenesive knowledge of MVC</li>
+                        <li>Experience of HTML/CSS/HTML</li>
+                        <li>Extensive knowledge of network</li>
+                        <li>Data Analysis</li>
+                        <li>Data structure and Algorithm</li>
                     </article>
                 </div>
                 <div class="col-md-6">
@@ -225,7 +239,7 @@
                             <h3>University of Washington</h3>
                             <p>Master of Education - <strong>Graduated:</strong> 2013</p>
                         </header>
-                        <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                        <p>Curriculum/Language Education</p>
                     </article>
                 </div>
                 <div class="col-md-6">
@@ -234,7 +248,7 @@
                             <h3>Waseda University</h3>
                             <p>Bachelor of Liberal Arts - <strong>Graduated:</strong> 2011</p>
                         </header>
-                        <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                        <p>International Law, Statistics, Business, Economics.</p>
                     </article>
                 </div>
             </div>
@@ -247,7 +261,8 @@
             <header class="section-header">
                 <h2 class="section-title"><span>Experience</span></h2>
                 <div class="spacer"></div>
-                <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                <br>
+                <!-- <p class="section-subtitle"></p> -->
             </header>
             <div class="row">
                 <div class="col-md-4">
@@ -256,7 +271,7 @@
                             <h3>The North American Post</h3>
                             <p>Digital Content Manager / Seattle, WA / 2012 - 2015</p>
                         </header>
-                        <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                        <p>- Managing the front-end digital content for the company website and responsible for digital content for the web team. Increased followers on Facebook by 300%.</p>
                     </article>
                 </div>
                 <div class="col-md-4">
@@ -265,16 +280,14 @@
                             <h3>Universal Herbs, Inc</h3>
                             <p>Freelance Amazon JP Consultant / Seattle, WA / 2013 - 2014</p>
                         </header>
-                        <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
-                    </article>
+                        <p>- Responsible for daily customer service tasks in English and Japanese. Improved customer satisfaction rating by 8%.</p>
                 </div>
                 <div class="col-md-4">
                     <article class="experience">
                         <header>
                             <h3>Sports Hochi</h3>
                             <p>Freelance Seattle Mariners Correspondent/ Seattle, WA / 2014 - 2014</p>
-                        </header>
-                        <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                        </header>- Interviewing MLB players and writing articles about Mariner's games and performance results of Hisashi Iwakuma.</p>
                     </article>
                 </div>
             </div>
@@ -288,10 +301,10 @@
                 <header class="section-header">
                     <h2 class="section-title"><span>Portfolio</span></h2>
                     <div class="spacer"></div>
-                    <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                    <!-- <p class="section-subtitle"></p> -->
                 </header>
 
-                <div id="grid-controls-wrapper">
+                <!-- <div id="grid-controls-wrapper">
                     <ul class="nav nav-pills center-pills grid-controls">
                         <li class="active filter"><a href="javascript:void(0)" data-filter="*">All</a>
                         </li>
@@ -304,33 +317,27 @@
                         <li class="filter"><a href="javascript:void(0)" data-filter=".web">Website</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
 
                 <div>
                     <ul id="grid" class="grid-wrapper">
                         <li class="mix web">
-                            <a href="img/portfolio/large/01.png">
-                                <div class="overlay"><i class="fa fa-search"></i>
-                                </div><img src="img/portfolio/small/01.png" alt="">
+                            <a href="http://www.scatterpeas.com/">
+                                <img src="/static/img/portfolio/small/scatterpeas.png" alt="">
+                            </a>
+                        </li>
+                        <li class="mix design">
+                            <a href="http://sheep.datazooids.com/">
+                                <div class="overlay">
+                                </div><img src="/static/img/portfolio/small/sheep.png" alt="">
                             </a>
                         </li>
                         <li class="mix design">
                             <a href="img/portfolio/large/02.png">
-                                <div class="overlay"><i class="fa fa-search"></i>
-                                </div><img src="img/portfolio/small/02.png" alt="">
+                                <div class="overlay">
+                                </div><p>Coming soon!</p>
                             </a>
-                        </li>
-                        <li class="mix design">
-                            <a href="img/portfolio/large/03.png">
-                                <div class="overlay"><i class="fa fa-search"></i>
-                                </div><img src="img/portfolio/small/03.png" alt="">
-                            </a>
-                        </li>
-                        <li class="mix web">
-                            <a href="img/portfolio/large/04.png">
-                                <div class="overlay"><i class="fa fa-search"></i>
-                                </div><img src="img/portfolio/small/04.png" alt="">
-                            </a>
+                            
                         </li>
                     </ul>
                 </div>
@@ -344,7 +351,7 @@
             <header class="section-header">
                 <h2 class="section-title"><span>Contact</span></h2>
                 <div class="spacer"></div>
-                <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+                <p class="section-subtitle">Feel free to contact me! </p>
             </header>
             <div class="row">
                 <div class="col-sm-5 contact-info">
@@ -352,6 +359,8 @@
                     <!-- <p><i class="fa fa-map-marker"></i> 1234 State St., Little Rock, AR 72020 </p> -->
                     <p><i class="fa fa-phone"></i> (206) 954-2208</p>
                     <p><i class="fa fa-envelope-o"></i> saki.fu86@gmail.com</p>
+                    <p><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/sakifu"><font color="#ffffff"> www.linkedin.com/in/sakifu<font></a></p>
+                    <p><i class="fa fa-github"></i><a href="https://github.com/SakiFu"><font color="#ffffff"> github.com/SakiFu<font></a></p>
 
                 </div>
 
