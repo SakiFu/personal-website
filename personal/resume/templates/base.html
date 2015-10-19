@@ -5,6 +5,7 @@
 {# Load CSS and JavaScript #}
 
 {% load staticfiles %}
+{% bootstrap_javascript jquery=1 %}
 {% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
@@ -22,9 +23,11 @@
 
     <link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
     <link rel="stylesheet" href="{% static "css/main.css" %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="{% static "js/facetagger.js" %}"></script>
 
   </head>
   <body>
