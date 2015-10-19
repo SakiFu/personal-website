@@ -141,6 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 #grid .mix {
+    display: inline-block;
     width: 200px;
     height: 150px;
     vertical-align: top;
@@ -505,6 +506,13 @@ label.valid {
 .flower {
     position:relative;
 }
+.credit {
+    position:absolute;
+    bottom: 44px;
+    right: 110px;
+    color: #ffffff;
+}
+
 /* ==========================================================================
    Responsive Settings
    ========================================================================== */
